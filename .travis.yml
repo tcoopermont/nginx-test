@@ -3,5 +3,5 @@ dist: bionic
 language: minimal 
 sudo: true 
 install:
- - nginx install
+ - apt install nginx
 script: curl localhost
