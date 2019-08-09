@@ -4,4 +4,4 @@ language: minimal
 sudo: true 
 install:
  - nginx install
- script: curl localhost
+script: curl localhost
