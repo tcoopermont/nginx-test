@@ -7,4 +7,5 @@ install:
  - sudo unlink /etc/nginx/sites-enabled/default
  - ls /etc/nginx/sites-enabled
  - sudo systemctl reload nginx
+ - sleep 5
 script: curl localhost
