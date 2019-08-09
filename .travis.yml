@@ -4,4 +4,5 @@ language: minimal
 sudo: true 
 install:
  - sudo apt install nginx
+ - sudo systemctl stop nginx
 script: curl localhost
